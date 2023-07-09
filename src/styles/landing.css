@@ -51,7 +51,7 @@
 
 .landing nav button:hover {
     border: 2px solid rgb(255, 255, 255);
-    background-color: #000;
+    background-color: rgb(10, 10, 190);
     color: white;
 }
 
@@ -106,6 +106,7 @@
     flex-wrap: wrap;
     margin-top: 15px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .landing .featured div {
@@ -164,10 +165,6 @@
     border-top: 1px solid rgb(182, 182, 182);
 }
 
-.landing .featured div .price .span {
-    text-align: right;
-}
-
 .landing .featured div .price button {
     background-color: rgb(215, 215, 215);
     border: none;
@@ -176,7 +173,22 @@
     font-weight: bolder;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
+    .landing {
+        padding-top: 30px;
+    }
+    .landing .featured div {
+        margin: 5px auto;
+    }
+    .landing .jobs {
+        width: 100%;
+    }
+    .landing .featured {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1100px) {
     .landing {
         height: auto;
         width: 95%;
@@ -197,8 +209,14 @@
     .landing main p {
         width: 100%;
     }
+    .landing .featured {
+        margin-top: 0px;
+    }
     .landing .featured div {
-        border: 1px solid black;
         margin: 20px auto;
+    }
+    .landing .featured div .price {
+        font-size: .6em;
+        align-items: center;
     }
 }
