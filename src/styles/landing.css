@@ -1,0 +1,177 @@
+.landing {
+    background-color: rgb(132, 168, 250);
+    height: 100vh;
+    box-sizing: border-box;
+    width: 85%;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.landing nav {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing nav h1 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.landing nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.landing nav ul li:first-child {
+    font-weight: bold;
+}
+
+.landing nav ul li {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin: auto 10px;
+}
+
+.landing nav ul li:hover {
+    border-bottom: 2px solid black;
+    transition: 300ms ease-in-out;
+}
+
+.landing nav button {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.landing nav button:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #000;
+    color: white;
+}
+
+.landing main {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.landing main h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 600px;
+}
+
+.landing main p {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: .9em;
+    color: rgb(69, 69, 69);
+    font-weight: lighter;
+}
+
+.landing main .extras button{
+    background-color: rgb(10, 10, 190);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    margin: auto 15px;
+    font-family: "Poppins", sans-serif;
+    padding: 13px 25px;
+    cursor: pointer;
+}
+
+.landing main .extras a {
+    text-transform: capitalize;
+    color: rgb(10, 10, 190);
+    margin: auto 15px;
+}
+
+.landing .jobs {
+    font-weight: bolder;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.landing .featured {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.landing .featured div {
+    width: 360px;
+    margin: auto 20px;
+    background-color: white;
+    padding: 20px 30px;
+    padding-right: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.landing .featured div header {
+    display: inline-flex;
+}
+
+.landing .featured div header img {
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.landing .featured div:first-child {
+    background-color: rgb(10, 10, 190);
+    color: white;
+}
+
+.landing .featured div:first-child .little, .landing .featured div:first-child p {
+    color: rgb(205, 205, 205);
+}
+
+.landing .featured div h1 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.landing .featured div .little {
+    font-size: .8em;
+    color: rgb(69, 69, 69);
+    margin-bottom: 25px;
+}
+
+.landing .featured div p {
+    font-size: .9em;
+    color: rgb(69, 69, 69);
+    margin-bottom: 25px;
+}
+
+.landing .featured div .price {
+    font-size: .8em;
+    width: 95%;
+    display: inline-flex;
+    padding-top: 15px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-top: 1px solid rgb(182, 182, 182);
+}
+
+.landing .featured div .price .span {
+    text-align: right;
+}
+
+.landing .featured div .price button {
+    background-color: rgb(215, 215, 215);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
